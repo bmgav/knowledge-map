@@ -20,7 +20,18 @@
     // Adds `show graph` command that displays graph of linked notes
     "tchayen.markdown-links",
 
+    // TODO: I don't like this theme, but I'm not sure what to replace it with yet
     // Understated grayscale theme (light and dark variants)
-    "philipbe.theme-gray-matter"
+    //"philipbe.theme-gray-matter"
+    //"sdras.night-owl"
+
+    // expand URLs to markdown format with title taken from webpage
+    "skn0tt.markdown-link-expander",
+
+    // Preview images in the gutter
+    "kisstkondoros.vscode-gutter-preview",
+
+    // Paste Image to handle pasting images (adding md link, saving to local folder etc)
+    "mushan.vscode-paste-image"
   ]
 }
