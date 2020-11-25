@@ -30,6 +30,7 @@ If GitHub preview (or general 100% support with all Markdown tools) is a require
   - `[[journal:2020-11-17]]` -- nope
   - [[2020-11-17]] -- this seems to work, though it doesn't seem to autocomplete, and I also think you have to wait for the link references to update
   - I'm assuming that standard markdown link syntax would work, but it's kind of a pain
+- Not fully sure if tags work, testing here #todo
 
 ## Foam Inbox
 

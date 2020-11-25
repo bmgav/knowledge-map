@@ -32,6 +32,9 @@
     "kisstkondoros.vscode-gutter-preview",
 
     // Paste Image to handle pasting images (adding md link, saving to local folder etc)
-    "mushan.vscode-paste-image"
+    "mushan.vscode-paste-image",
+
+    // draw.io integration for creating/editing diagrams
+    "hediet.vscode-drawio"
   ]
 }
