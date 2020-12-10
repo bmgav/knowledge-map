@@ -1,0 +1,30 @@
+{
+  "editor.minimap.enabled": false,
+  "editor.wrappingIndent": "indent",
+  "editor.overviewRulerBorder": false,
+  "editor.lineHeight": 24,
+  "[markdown]": {
+    "editor.quickSuggestions": true
+  },
+  "git.enableSmartCommit": true,
+  "git.postCommitCommand": "sync",
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  "files.watcherExclude": {
+    "**/node_modules": true
+  },
+  "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
+  "vscodeMarkdownNotes.slugifyMethod": "github-slugger",
+  "workbench.colorTheme": "Night Owl",
+  "workbench.preferredDarkColorTheme": "Solarized Dark",
+  "workbench.preferredLightColorTheme": "Solarized Light",
+  "workbench.sideBar.location": "right",
+  "workbench.tips.enabled": false,
+  "workbench.tree.indent": 4,
+  "foam.openDailyNote.directory": "journal",
+  "pasteImage.path": "${projectRoot}/source/img/${currentFileNameWithoutExt}",
+  "pasteImage.basePath": "${projectRoot}/source",
+  "pasteImage.forceUnixStyleSeparator": true,
+  "pasteImage.prefix": "/"
+}
