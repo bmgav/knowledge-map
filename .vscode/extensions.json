@@ -35,6 +35,12 @@
     "mushan.vscode-paste-image",
 
     // draw.io integration for creating/editing diagrams
-    "hediet.vscode-drawio"
+    "hediet.vscode-drawio",
+
+    // markdownlint for markdown file style/syntax checking
+    "davidanson.vscode-markdownlint",
+  
+    // Spell checking for text, markdown and latex
+    "ban.spellright",
   ]
 }
