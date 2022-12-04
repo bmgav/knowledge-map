@@ -1,34 +1,41 @@
 {
+  // template settings
   "editor.minimap.enabled": false,
   "editor.wrappingIndent": "indent",
   "editor.overviewRulerBorder": false,
   "editor.lineHeight": 24,
   "[markdown]": {
     "editor.quickSuggestions": {
-      "comments": "on",
-      "strings": "on",
-      "other": "on"
+        "comments": "on",
+        "strings": "on",
+        "other": "on"
     }
   },
-  "git.enableSmartCommit": true,
-  "git.postCommitCommand": "sync",
+  "files.defaultLanguage": "markdown",
   "files.exclude": {
     "**/node_modules": true
   },
   "files.watcherExclude": {
     "**/node_modules": true
   },
-  "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
-  "vscodeMarkdownNotes.slugifyMethod": "github-slugger",
+  "foam.edit.linkReferenceDefinitions": "off",
+  "foam.openDailyNote.directory": "journal",
+  "foam.openDailyNote.titleFormat": "fullDate",
+  "git.enableSmartCommit": true,
+  "git.postCommitCommand": "sync",
+  "markdown.preview.breaks": true,
+  "pasteImage.path": "${projectRoot}/attachments",
+  "pasteImage.showFilePathConfirmInputBox": true,
+  "prettier.singleQuote": false,
+  // Settings I've added
   "workbench.colorTheme": "Monokai Night",
   "workbench.preferredDarkColorTheme": "Solarized Dark",
   "workbench.preferredLightColorTheme": "Solarized Light",
   "workbench.sideBar.location": "right",
   "workbench.tips.enabled": false,
   "workbench.tree.indent": 4,
-  "foam.openDailyNote.directory": "journal",
-  "pasteImage.path": "${projectRoot}/source/img/${currentFileNameWithoutExt}",
-  "pasteImage.basePath": "${projectRoot}/source",
+  //"pasteImage.path": "${projectRoot}/source/img/${currentFileNameWithoutExt}",
+  //"pasteImage.basePath": "${projectRoot}/source",
   "pasteImage.forceUnixStyleSeparator": true,
   "pasteImage.prefix": "/",
   "editor.fontFamily": "Source Code Pro for Powerline, Cascadia Code, Hack, Consolas, Ubuntu NF,monospace"
